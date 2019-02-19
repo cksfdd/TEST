@@ -114,7 +114,7 @@ Vue.use(MenuItem);
 Vue.use(MenuItemGroup);
 
 export default {
-  name: "App",
+    name: "App",
   computed: mapState({
     username: state => state.user.username
   }),
